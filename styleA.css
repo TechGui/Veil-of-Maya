@@ -1,0 +1,193 @@
+* {
+    font-family: 'Special Elite', cursive;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+:root {
+    --cor-principal: #fffffffb;
+    --vinho-principal: #e24c60ea;
+    --vinho-transparente: #e24c601a;
+    --cinza-principal: #000000;
+    --cinza-secundario: #ffffffab;
+    --vinho-background: #6b18180a;
+    --branco-principal: #ffffff;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5em;
+    justify-content:space-around;
+    align-content: center;
+    background: var(--cor-principal);
+    font-size: 1.05rem;
+}
+
+#logo {
+    height: 96px;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: var(--cinza-principal);
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.login,
+.login a {
+    float: right;
+    text-decoration: none;
+    color: var(--cinza-principal);
+}
+
+.main {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: var(--cinza-principal);
+}
+
+.container__video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8em;
+    margin: auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46vh;
+    width: 53vw;
+}
+
+.titulo {
+    margin-top: 4rem;
+    width: 73vw;
+
+}
+
+#titulo__cor {
+    color: var(--branco-principal);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+#subtitulo__cor {
+    margin: auto;
+    color: var(--branco-principal);
+    font-size: 1.16rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#pbranco {
+    color: var(--cinza-secundario);
+    font-size: 1.2rem;
+}
+
+#button {
+    background-color: var(--vinho-principal);
+    border-radius: 8px;
+    border: none;
+    color: var(--branco-principal);
+    padding: 9px;
+    cursor: pointer;
+}
+
+.centralizar {
+    text-align: center;
+    align-self: center;
+}
+
+#socialmedia__buttons--size {
+    border-radius: 8px;
+    cursor: pointer;
+    background: var(--vinho-principal);
+    border: solid;
+    border-width: 0.1em;
+    border-color: #ffffff;
+    height: 2.2em;
+    padding: 3px;
+}
+
+.Products {
+    background-image: url('./img/vom-symbol.webp');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100%;
+    margin-top: 6em;
+    margin-bottom: 3em;
+}
+
+#Shopping__Products {
+    border: none;
+    border-width: 0.1em;
+    border-radius: 1.6em;
+    width: 100%;
+}
+
+.metricas__container--item h1, a {
+    color: var(--vinho-principal);
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.metricas__container--item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 25em;
+    padding: 1.7em;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: space-evenly;
+    width: 76%;
+    margin: auto;
+    padding-left: 3rem;
+}
+
+#viewallmerch{
+    background-color: var(--vinho-transparente);
+    border: none;
+    color: var(--vinho-transparente);
+    padding: 9px;
+    cursor: pointer;
+    color: white;
+}
+
+ footer {
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+/* aqui parte mobile; */
+@media screen and (max-width: 768px){
+
+    .navigation-header{
+    display: none;
+    }
+}
