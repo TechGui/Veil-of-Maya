@@ -1,6 +1,6 @@
 # Veil-of-Maya
 <div align="center">
-<img src="/img/vom-symbol.webp" width="350px">
+<img src="/img/vom-symbol.webp" width="250px">
 </div>
 
 
