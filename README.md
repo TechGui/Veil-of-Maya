@@ -9,4 +9,4 @@ Sobre o mesmo, eu pretendo termina-lo totalmente as seções que estão disponí
 banda e seus equipamentos. Em resumo meu objetivo é trazer a informação, juntamente da liberdade do usuário de poder adquirir algo futuramente ou somente conhecer sobre a banda.
 
 Acesse o site abaixo:
-https://devninjaguilherme.github.io/Veil-of-Maya/
+https://techgui.github.io/Veil-of-Maya/
